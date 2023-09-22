@@ -1,0 +1,76 @@
+/* dashboard.css */
+
+/* Dashboard Container */
+.dashboard-container {
+  display: flex;
+  height: 100vh;
+  background-color: rgb(127, 214, 139);
+}
+
+/* Sidebar */
+.sidebar {
+  
+  background-color: #2b5738;
+  color: white;
+  padding: 20px;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+ul li {
+  margin-bottom: 10px;
+}
+
+ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+ul li a:hover {
+  text-decoration: underline;
+}
+
+/* Content */
+.content {
+  flex-grow: 1;
+  padding: 20px;
+}
+
+/* Top Navigation */
+.top-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: right;
+  margin-left: 1000px;
+  
+}
+
+.welcome {
+  margin-top: 150px;
+  
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.button {
+  background-color: #006616;
+  color: white;
+  border: none;
+  cursor: pointer;
+  width:70px;
+  height:30px;
+  border-radius: 100px;
+}
+
+.button:hover {
+  text-decoration: underline;
+}
